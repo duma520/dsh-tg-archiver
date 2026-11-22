@@ -1,0 +1,5 @@
+# dsh-tg-archiver bundle patch：一行 insert 即挂载 host 半身（5 个工具）。
+- insert:
+    - id: tg-archiver
+      name: '@lanbaolu/dsh-tg-archiver'
+      config: {}

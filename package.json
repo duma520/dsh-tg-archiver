@@ -1,0 +1,23 @@
+{
+  "name": "@lanbaolu/dsh-tg-archiver",
+  "version": "0.0.1",
+  "description": "Telegram 频道批量归档（tgarchiver）的 DSH 原生工具：建任务、扫索引、后台下载、状态看板。",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "settings.example.json"
+  ],
+  "license": "BSD-3-Clause"
+}
