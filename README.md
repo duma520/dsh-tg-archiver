@@ -37,7 +37,7 @@
 | 依赖的外部程序 | `telegram-channel-archiver`（Python CLI，**不在本包内**） |
 | 工具数量 | 5 个 |
 | 源码规模 | src/index.ts 260 行，lib/index.js 209 行 |
-| 许可 | BSD-3-Clause |
+| 许可 | AGPL-3.0 |
 
 ### 设计原则（源码注释原文）
 
@@ -358,4 +358,4 @@ npx tsc src/index.ts --outDir lib
 
 ## 12. 许可
 
-BSD-3-Clause（见 `package.json` 的 `license` 字段）。
+AGPL-3.0（见 `package.json` 的 `license` 字段）。
