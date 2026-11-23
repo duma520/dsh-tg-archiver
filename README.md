@@ -218,7 +218,7 @@ tg_archive_run  job=lesson
 
 ```json
 {
-  "tgHome": "G:\\Python_Code\\telegram-channel-archiver",
+  "tgHome": "D:\\Projects\\telegram-channel-archiver",
   "pythonPath": "python"
 }
 ```
